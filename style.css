@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  transition: background 0.3s, color 0.3s;
+}
+
+/* Dark mode */
+.dark-mode {
+  background: #121212;
+  color: white;
+}
+
+/* Counter */
+.counter {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+/* FAQ */
+.faq-content {
+  display: none;
+  margin: 5px 0;
+}
+.faq.open .faq-content {
+  display: block;
+}
+
+/* Form Errors */
+.error {
+  color: red;
+  font-size: 0.9rem;
+}
+.success {
+  color: green;
+  font-weight: bold;
+}
